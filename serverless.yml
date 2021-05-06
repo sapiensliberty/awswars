@@ -1,0 +1,58 @@
+
+service: awswars
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: dev
+  profile: deployaws
+  region: us-east-1
+  environment:
+    FAUNADB_SECRET: fnAEIe5MCIACDZUAnLENAT3vC_ICGCpmiPhuLwh7
+
+functions:
+  personas:
+    handler: handler.personas
+    events:
+      - http:
+          path: /personas
+          method: get
+          cors: true
+  unapersona:
+    handler: handler.unapersona
+    events:
+      - http:
+          path: /personas/{id}
+          method: get
+          cors: true
+  crearpersona:
+    handler: handler.crearpersona
+    events:
+      - http:
+          path: /personas/{id}
+          method: post
+          cors: true
+  planetas:
+    handler: handler.planetas
+    events:
+      - http:
+          path: /planetas
+          method: get
+          cors: true
+  unplaneta:
+    handler: handler.unplaneta
+    events:
+      - http:
+          path: /planetas/{id}
+          method: get
+          cors: true
+  crearplaneta:
+    handler: handler.crearplaneta
+    events:
+      - http:
+          path: /planetas/{id}
+          method: post
+          cors: true
