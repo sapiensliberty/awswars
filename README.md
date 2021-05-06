@@ -22,7 +22,7 @@ Cuenta en FaunaDB con credenciales activas (aunque se incluye en el código fuen
 Cuenta en AWS con free tier activa
 
 ## Instalación
-Usar serverless para [nodejs](https://www.npmjs.com/package/serverless) para instalar con npm.
+Usar serverless para [nodejs](https://www.npmjs.com/package/serverless) e instalar con npm.
 
 Luego desplegar en aws con:
 ```bash
