@@ -9,7 +9,7 @@ Serverless framework 2.39.2
 Cuenta en FaunaDB con credenciales activas (aunque se incluye en el código fuente una credencial para probar)
 Cuenta en AWS con free tier activa
 ## Instalación
-Usar serverless para nodejs [pip](https://www.npmjs.com/package/serverless) para instalar con npm.
+Usar serverless para [nodejs](https://www.npmjs.com/package/serverless) para instalar con npm.
 Luego desplegar en aws con:
 ```bash
 sls deploy --stage dev --verbose
