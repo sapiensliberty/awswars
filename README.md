@@ -13,6 +13,8 @@ Usar serverless para [nodejs](https://www.npmjs.com/package/serverless) para ins
 Luego desplegar en aws con:
 ```bash
 sls deploy --stage dev --verbose
+## Cliente angular
+Probar consumo de API en [nodejs](https://sapiensliberty.github.io/ngawswars/)
 ## Endpoints
   Obtiene todos los personajes registrados en FaunaDB
   GET - https://463wiphc2h.execute-api.us-east-1.amazonaws.com/dev/personas
