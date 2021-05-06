@@ -13,6 +13,7 @@ Usar serverless para [nodejs](https://www.npmjs.com/package/serverless) para ins
 Luego desplegar en aws con:
 ```bash
 sls deploy --stage dev --verbose
+```
 ## Cliente angular
 Probar consumo de API en [nodejs](https://sapiensliberty.github.io/ngawswars/)
 ## Endpoints
@@ -42,6 +43,3 @@ Probar consumo de API en [nodejs](https://sapiensliberty.github.io/ngawswars/)
   --url https://463wiphc2h.execute-api.us-east-1.amazonaws.com/dev/planetas/6 \
   --header 'Authorization: Bearer undefined' \
   --header 'Content-Type: application/json'
-  
-  ## Cliente angular
-  Se creó un cliente en angular alojado en github pages.
