@@ -3,6 +3,14 @@ Reto Serverless AWS de Victor Aguilar Villegas
 ## Dependencias
 FaunaDB 4.2.0
 
+Es necesario crear las colecciones e índices de FaunaDB con 
+```bash
+node esquemapersonas.js
+```
+```bash
+node esquemaplanetas.js
+```
+
 Swapi Node 0.6.0
 
 ## Requisitos
@@ -21,7 +29,7 @@ Luego desplegar en aws con:
 sls deploy --stage dev --verbose
 ```
 ## Cliente angular
-Probar consumo de API en [nodejs](https://sapiensliberty.github.io/ngawswars/)
+Probar consumo de API en [<<AQUÍ>>](https://sapiensliberty.github.io/ngawswars/)
 ## Endpoints
   Obtiene todos los personajes registrados en FaunaDB
   
