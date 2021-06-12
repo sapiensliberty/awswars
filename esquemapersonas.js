@@ -1,6 +1,6 @@
 const faunadb = require('faunadb');
 const q = faunadb.query;
-const client = new faunadb.Client({ secret: 'fnAEIe5MCIACDZUAnLENAT3vC_ICGCpmiPhuLwh7' });
+const client = new faunadb.Client({ secret: 'faunasecretkey' });
 const clc="personas";
 const idc="idc_personas";
 
