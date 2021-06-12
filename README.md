@@ -4,7 +4,8 @@ Reto Serverless AWS de Victor Aguilar Villegas
 TCS me dejó este reto en una convocatoria de trabajo pero ni se dignaron en responderme el correo.
 Y eso que tuve que crearme una cuenta en AWS, agregar mi tarjeta, aprender Lambdas, serverless, instalar múltiples versiones de Nodejs. etc.
 Lo único bueno es que aprendí muchas cosas sobre el ecosistema de AWS. Hasta FaunaDB aprendí. Muy buena db no-sql, mucho más versátil que dynamodb.
-# Comentario N°02 Para variar me obligaron a utilizar el api pedorra de StarWars, con lo mucho que me gusta esa franquicia (sarcasmo)
+# Comentario N°02 
+Para variar me obligaron a utilizar el api pedorra de StarWars, con lo mucho que me gusta esa franquicia (sarcasmo)
 De todas maneras dejo pública la implementación de este "reto de TCS"
 ## Dependencias
 FaunaDB 4.2.0
@@ -36,3 +37,6 @@ sls deploy --stage dev --verbose
 ```
 ## Cliente angular
 Probar consumo de API [<<AQUÍ>>](https://sapiensliberty.github.io/ngawswars/)
+
+# Consultás
+Si querés dejarme alguna consulta este es mi correo ché, colaborá: elqtodolov@gmail.com
