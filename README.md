@@ -35,7 +35,7 @@ Luego desplegar en aws con:
 ```bash
 sls deploy --stage dev --verbose
 ```
-## Cliente angular
+## Cliente angular (desactivé las apis)
 Probar consumo de API [<<AQUÍ>>](https://sapiensliberty.github.io/ngawswars/)
 
 # Consultás
